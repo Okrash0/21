@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
+
+    <h2 id="gameTurn">Game in progress</h2>
+    <div>
+      <b>Hosue:</b>
+      <b id="hosueShow">0</b>
+      <br>
+      <b>Hand:</b>
+      <b id="houseHand"></b>
+    </div>
+    <div>
+      <b>Player:</b>
+      <b id="handShow">0</b>
+      <br>
+      <b>Hand:</b>
+      <b id="playerHand"></b>
+      <br>
+      <button onclick="stand()">Stand</button>
+      <button onclick="hitP()">Hit</button>
+    </div>
+    <br>
+    <button onclick="reset()">New round</button>
+    <br>
+  </head>
+  <body>
+  </body>
+</html>
